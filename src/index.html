@@ -1,24 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css">
   <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-  <img src="../images/large-banner.jpg" alt="" id="banner">
+  <picture>
+    <source media="(max-width: 600px)" srcset="../images/small-banner-600.jpg">
+    <source media="(max-width: 768px)" srcset="../images/medium-banner-768.jpg">
+    <source media="(max-width: 1200px)" srcset="../images/large-banner-1200.jpg">
+    <img src="../images/extra-large-banner-1920.jpg" alt="banner" id="banner">
+  </picture>
   <header id="header">
     <nav id="header-nav">
       <ul>
-        <li>Armas</li>
+        <li id="weapons">Armas</li>
         <li>Mapas</li>
         <li>Personagens</li>
         <li>CS:GO Timer</li>
       </ul>
     </nav>
+    <main>
+      <section id="weapons-container">
+        <section id="weapon-type">
+          <button>pistols</button>
+          <button>smgs</button>
+          <button>rifles</button>
+          <button>heavy</button>
+          <button>knives</button>
+          <button>other</button>
+        </section>
+      </section>
+    </main>
   </header>
   <script src="script.js"></script>
 </body>
+
 </html>
