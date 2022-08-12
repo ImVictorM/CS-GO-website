@@ -1,114 +1,129 @@
 const weapons = {
-  pistol: {
-    'P2000': {
+  pistol: [
+    {
+      name: 'P2000',
       image: 'P2000.webp',
     },
-    'USP-S': {
+    {
+      name: 'USP-S',
       image: 'USP-S.webp',
     },
-    'GLOCK-18': {
+    {
+      name: 'GLOCK-18',
       image: 'Glock-18.webp',
     },
-    'DUAL-BERETTAS': {
+    {
+      name: 'DUAL-BERETTAS',
       image: 'Dual_Berettas.webp',
     },
-    'P250': {
+    {
+      name: 'P250',
       image: 'P250.webp',
     },
-    'FIVE-SEVEN': {
+    {
+      name: 'FIVE-SEVEN',
       image: 'Five-SeveN.webp',
     },
-    'TEC-9': {
+    {
+      name: 'TEC-9',
       image: 'Tec-9.webp',
     },
-    'CZ75-AUTO': {
+    {
+      name: 'CZ75-AUTO',
       image: 'CZ75-Auto.webp',
     },
-    'DESERT-EAGLE': {
+    {
+      name: 'DESERT-EAGLE',
       image: 'Desert_Eagle.webp',
     },
-    'R8-REVOLVER': {
+    {
+      name: 'R8-REVOLVER',
       image: 'R8_Revolver.webp',
     }
-  },
-  smg: {
-    'MP9': {
+  ],
+  smg: [
+    {
+      name: 'MP9',
       image: 'MP9.webp',
     },
-    'MAC-10': {
+    {
+      name: 'MAC-10',
       image: 'MAC-10.webp',
     },
-    'MP7': {
+    {
+      name: 'MP7',
       image: 'MP7.webp',
     },
-    'MP5-SD': {
+    {
+      name: 'MP5-SD',
       image: 'MP5-SD.webp',
     },
-    'UMP-45': {
+    {
+      name: 'UMP-45',
       image: 'UMP-45.webp',
     },
-    'P90': {
+    {
+      name: 'P90',
       image: 'P90.webp',
     },
-    'PP-BIZON': {
+    {
+      name: 'PP-BIZON',
       image: 'PP-Bizon.webp',
     },
-  },
-  heavy: {
-    'NOVA': {
-
+  ],
+  heavy: [
+    {
+      name: 'NOVA',
     },
-    'XM1014': {
-
+    {
+      name: 'XM1014',
     },
-    'SAWED-OFF': {
-
+    {
+      name: 'SAWED-OFF',
     },
-    'MAG-7': {
-
+    {
+      name: 'MAG-7',
     },
-    'M249': {
-
+    {
+      name: 'M249',
     },
-    'NEGEV': {
-
+    {
+      name: 'NEGEV',
     },
-  },
-  rifle: {
-    'AK-47': {
-
+  ],
+  rifle: [
+    {
+      name: 'AK-47',
     },
-    'FAMAS': {
-
+    {
+      name: 'FAMAS',
     },
-    'GALIL-AR': {
- 
+    {
+      name: 'GALIL-AR',
     },
-    'M4A4': {
-
+    {
+      name: 'M4A4',
     },
-    'M4A1-S': {
-
+    {
+      name: 'M4A1-S',
     },
-    'SSG-08': {
-
+    {
+      name: 'SSG-08',
     },
-    'AUG': {
-
+    {
+      name: 'AUG',
     },
-    'SG-553': {
-
+    {
+      name: 'SG-553',
     },
-    'AWP': {
-
+    {
+      name: 'AWP',
     },
-    'SCAR-20': {
-
+    {
+      name: 'SCAR-20',
     },
-    'G3SG1': {
-
+    {
+      name: 'G3SG1',
     },
-  },
+  ],
 }
-
-console.log(weapons.pistol.P200);
